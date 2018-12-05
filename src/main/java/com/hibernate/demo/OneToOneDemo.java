@@ -27,8 +27,11 @@ public class OneToOneDemo
 				// asociate the two objects
 				// tempInstructor.setInstructorDetail(tempInstructorDetail);
 				session.beginTransaction();
-				Instructor tempInstructor = session.get(Instructor.class, 1);
-				session.delete(tempInstructor);
+				Instructor tempInstructor = new Instructor("Ncominkosi", "Dube","ndube@tmn.co.zw" );
+				InstructorDetail tempInstructorDetail = new InstructorDetail("http://www.youtube.com/Ncominkosi", "Loves to play" );
+				//Link these two objects together
+				tempInstructor.setInstructorDetail(tempInstructorDetail);
+				session.save(tempInstructor);
 				// commit the change
 				session.getTransaction().commit();
 
