@@ -3,6 +3,9 @@ package com.hibernate.demo;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+
+import javax.swing.JOptionPane;
+
 import com.demo.entity.Instructor;
 import com.demo.entity.InstructorDetail;;
 
@@ -21,14 +24,12 @@ public class OneToOneDemo
 		//create a session
 		Session session = factory.getCurrentSession();
 
-		// wrap the persistence around  a try finally block `
+		// wrap the persistence around  a try finally block 
 
 		try { 				
-				// asociate the two objects
-				// tempInstructor.setInstructorDetail(tempInstructorDetail);
 				session.beginTransaction();
-				Instructor tempInstructor = new Instructor("Ncominkosi", "Dube","ndube@tmn.co.zw" );
-				InstructorDetail tempInstructorDetail = new InstructorDetail("http://www.youtube.com/Ncominkosi", "Loves to play" );
+				Instructor tempInstructor = new Instructor("Ntandoyenkosi", "Mkwananzi","nmkwananzi@tmn.co.zw" );
+				InstructorDetail tempInstructorDetail = new InstructorDetail("http://www.youtube.com/Ntandoyenkosi", "Loves to read" );
 				//Link these two objects together
 				tempInstructor.setInstructorDetail(tempInstructorDetail);
 				session.save(tempInstructor);
@@ -36,6 +37,20 @@ public class OneToOneDemo
 				session.getTransaction().commit();
 
 				System.out.println("Done!");
+		}
+		finally{
+			session.close();
+		}
+
+		// Deleting the insructor
+		try{
+			session = factory.getCurrentSession();
+			session.beginTransaction();
+			Instructor instructorToDelete = session.get(Instructor.class, 8);
+			JOptionPane.showConfirmDialog(null, String.format("Deleting: %s\n ", instructorToDelete.toString()));
+			session.delete(instructorToDelete);
+			session.getTransaction().commit();
+
 		}
 		finally {
 			factory.close();
