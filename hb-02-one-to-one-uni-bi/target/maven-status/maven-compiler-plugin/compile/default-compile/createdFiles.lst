@@ -1,0 +1,11 @@
+com/demo/entity/Instructor.class
+com/demo/entity/InstructorDetail.class
+com/hibernate/demo/CreateStudentDemo.class
+com/demo/entity/Student.class
+com/hibernate/demo/DeleteStudentDemo.class
+com/hibernatetutorial/App.class
+com/hibernate/demo/ReadStudentDemo.class
+com/hibernate/demo/OneToOneDemo.class
+com/hibernate/demo/UpdateStudentDemo.class
+com/hibernatetutorial/TestJdbc.class
+com/hibernate/demo/QuerryStudentDemo.class

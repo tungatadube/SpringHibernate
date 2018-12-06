@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.hibernatetutorial.AppTest" time="0.075" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/work/Documents/projects/practice/src/hb-01-one-to-one-uni/target/test-classes:/home/work/Documents/projects/practice/src/hb-01-one-to-one-uni/target/classes:/home/work/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/work/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/work/.m2/repository/org/hibernate/hibernate-core/5.2.0.Final/hibernate-core-5.2.0.Final.jar:/home/work/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar:/home/work/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/home/work/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar:/home/work/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/work/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar:/home/work/.m2/repository/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar:/home/work/.m2/repository/com/fasterxml/classmate/1.3.0/classmate-1.3.0.jar:/home/work/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/work/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/home/work/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar:/home/work/.m2/repository/javax/enterprise/cdi-api/1.1-PFD/cdi-api-1.1-PFD.jar:/home/work/.m2/repository/javax/el/el-api/2.2/el-api-2.2.jar:/home/work/.m2/repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.0.Beta1/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar:/home/work/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/home/work/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/work/.m2/repository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-catalina/9.0.13/tomcat-catalina-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-servlet-api/9.0.13/tomcat-servlet-api-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-jsp-api/9.0.13/tomcat-jsp-api-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-el-api/9.0.13/tomcat-el-api-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-juli/9.0.13/tomcat-juli-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-annotations-api/9.0.13/tomcat-annotations-api-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-api/9.0.13/tomcat-api-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-jni/9.0.13/tomcat-jni-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-coyote/9.0.13/tomcat-coyote-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-util/9.0.13/tomcat-util-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-util-scan/9.0.13/tomcat-util-scan-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-jaspic-api/9.0.13/tomcat-jaspic-api-9.0.13.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/work/Documents/projects/practice/src/hb-01-one-to-one-uni/target/surefire/surefirebooter4435086445376692398.jar /home/work/Documents/projects/practice/src/hb-01-one-to-one-uni/target/surefire 2018-12-05T11-53-06_707-jvmRun1 surefire5470235140616830900tmp surefire_06608518514880898288tmp"/>
+    <property name="surefire.test.class.path" value="/home/work/Documents/projects/practice/src/hb-01-one-to-one-uni/target/test-classes:/home/work/Documents/projects/practice/src/hb-01-one-to-one-uni/target/classes:/home/work/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/work/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/work/.m2/repository/org/hibernate/hibernate-core/5.2.0.Final/hibernate-core-5.2.0.Final.jar:/home/work/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar:/home/work/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/home/work/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar:/home/work/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/work/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar:/home/work/.m2/repository/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar:/home/work/.m2/repository/com/fasterxml/classmate/1.3.0/classmate-1.3.0.jar:/home/work/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/work/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/home/work/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar:/home/work/.m2/repository/javax/enterprise/cdi-api/1.1-PFD/cdi-api-1.1-PFD.jar:/home/work/.m2/repository/javax/el/el-api/2.2/el-api-2.2.jar:/home/work/.m2/repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.0.Beta1/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar:/home/work/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/home/work/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/work/.m2/repository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-catalina/9.0.13/tomcat-catalina-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-servlet-api/9.0.13/tomcat-servlet-api-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-jsp-api/9.0.13/tomcat-jsp-api-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-el-api/9.0.13/tomcat-el-api-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-juli/9.0.13/tomcat-juli-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-annotations-api/9.0.13/tomcat-annotations-api-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-api/9.0.13/tomcat-api-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-jni/9.0.13/tomcat-jni-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-coyote/9.0.13/tomcat-coyote-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-util/9.0.13/tomcat-util-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-util-scan/9.0.13/tomcat-util-scan-9.0.13.jar:/home/work/.m2/repository/org/apache/tomcat/tomcat-jaspic-api/9.0.13/tomcat-jaspic-api-9.0.13.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/work"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="basedir" value="/home/work/Documents/projects/practice/src/hb-01-one-to-one-uni"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/work/Documents/projects/practice/src/hb-01-one-to-one-uni/target/surefire/surefirebooter4435086445376692398.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="user.name" value="work"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-39-generic"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/work/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.dir" value="/home/work/Documents/projects/practice/src/hb-01-one-to-one-uni"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.hibernatetutorial.AppTest" time="0.003"/>
+</testsuite>
